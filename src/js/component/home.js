@@ -9,8 +9,8 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div>
-				<Todo />
 				<TodoHead />
+				<Todo />
 			</div>
 		);
 	}

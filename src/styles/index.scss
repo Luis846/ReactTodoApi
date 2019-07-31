@@ -1,13 +1,57 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+.title,
+.container{
+    text-align: center;
+}
+
+.container{
+    width: 45%;
+}
+input{
+    width: 100%;
+    border: 0;
+    outline: none;
+}
+
+.spans{
+    color: #fff;
+}
+
+.length{
+    font-size: 30px;
+}
+.icons{
+    text-align: right;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.icons:hover{
+
+ transform: scale(1.5);
+}
+
+body{
+font-family: 'Pacifico', cursive;
+background: linear-gradient(38deg, #630eb6, #007fe6, #05b924);
+background-size: 600% 600%;
+
+}
+
+@keyframes AnimationName {
+    0%{background-position:58% 0%}
+    50%{background-position:43% 100%}
+    100%{background-position:58% 0%}
+}
